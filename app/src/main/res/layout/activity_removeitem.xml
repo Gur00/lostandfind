@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/removebutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remove"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="530dp"
+        />
+
+    <TextView
+        android:id="@+id/itemdetails"
+        android:layout_width="380dp"
+        android:layout_height="480dp"
+        android:text="TextView"
+        android:layout_marginLeft="-260dp"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        />
+</androidx.appcompat.widget.LinearLayoutCompat>

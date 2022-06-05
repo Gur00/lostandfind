@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="entername">entername</string>
+    <string name="enterphn">enterphn</string>
+    <string name="enterdesp">enterdesp</string>
+    <string name="enterdate">enterdate</string>
+    <string name="enterloc">enterloc</string>
+</resources>

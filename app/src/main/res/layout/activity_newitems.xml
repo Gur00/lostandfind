@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".newitems">
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:text="Name"
+        />
+
+    <EditText
+        android:id="@+id/entername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text = "@string/entername"
+        android:importantForAutofill="no"
+        android:layout_marginTop="120dp"
+        android:layout_marginLeft="-40dp"
+        android:ems ="10"/>
+
+    <TextView
+        android:id="@+id/phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-210dp"
+        android:layout_marginTop="160dp"
+        android:text="Phone"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/enterphn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enterphn"
+        android:ems="10"
+        android:importantForAutofill="no"
+        android:inputType="phone"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="-50dp"
+        />
+
+    <TextView
+        android:id = "@+id/descp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Description"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="240dp"
+        android:layout_marginLeft="-200dp"
+        />
+    <EditText
+        android:id = "@+id/enterdesp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/enterdesp"
+        android:inputType="textMultiLine"
+        android:importantForAutofill="no"
+        android:layout_gravity="start|top"
+        android:ems="10"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="-90dp"
+        />
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="-200dp"
+        android:ems="10"
+        />
+    <EditText
+        android:id="@+id/enterdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/enterdate"
+        android:importantForAutofill="no"
+        android:inputType="date"
+        android:ems="10"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="-220dp"
+
+        />
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "Location"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="-150dp"
+        />
+    <EditText
+        android:id="@+id/enterloc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/enterloc"
+        android:importantForAutofill="no"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_marginTop="420dp"
+        android:layout_marginLeft="-70dp"
+
+        />
+    <Button
+        android:id = "@+id/Save"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:text = "Save"
+        android:textSize="30sp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="-150dp"
+        />
+
+    <TextView
+        android:id="@+id/postype"
+        android:layout_width="119dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="-300dp"
+        android:layout_marginTop="30dp"
+        android:text="Post Type :"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        />
+
+    <RadioButton
+        android:id="@+id/lost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:text="Lost"
+        android:textSize="16sp"
+        android:checked="false"/>
+
+    <RadioButton
+        android:id="@+id/found"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Found"
+        android:layout_marginLeft="10dp"
+        android:textSize="16sp"
+        android:checked="false"/>
+
+
+</LinearLayout>
